@@ -1,0 +1,33 @@
+.Items {
+  // padding-right: 3rem;
+  :global(.ant-card-cover) {
+    padding: 10px 10px;
+    height: 100px;
+    background: #d3d4d9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  :global(.ant-card-body) {
+    position: relative;
+  }
+
+  :global(.featuredImage) {
+    // filter: brightness(0);
+    height: auto;
+    width: auto;
+    max-height: 100%;
+    max-width: 100%;
+  }
+  :global(.channelImgWrap) {
+    position: absolute;
+    right: 10px;
+    top: -10px;
+  }
+}
+
+.deleteBtn{
+  background: none;
+  border: none;
+  color: red;
+}

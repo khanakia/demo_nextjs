@@ -1,0 +1,10 @@
+.ActionLinks {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  text-decoration: underline;
+  font-weight: 500;
+  a{
+    color: var(--primary-bg);
+  }
+}

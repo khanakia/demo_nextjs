@@ -1,0 +1,11 @@
+{
+  "extends": "next/core-web-vitals",
+  "rules": {
+    // disable <img> warning
+    "@next/next/no-img-element": "off",
+    "no-restricted-imports": ["error", {
+      // "paths": ["import1", "import2"],
+      "patterns": ["src/features/bite/**/*", "!src/features/bite/components", "src/features/app/**/*"]
+    }]
+  }
+}
